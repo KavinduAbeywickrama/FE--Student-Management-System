@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #184634;
+}
+
+.header nav h2{
+  color: white ;
+  align-items: center;
+  margin-right: 17%;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav h1{
+
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+ 
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.heading-row {
+  background-color: lightblue;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0; 
+  width: 100%; 
+  background-color: #303635;
+}
+
+.footer nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #303635;
+}
